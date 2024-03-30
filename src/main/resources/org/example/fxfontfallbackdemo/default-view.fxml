@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.fxfontfallbackdemo.DefaultController" stylesheets="@default.css">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="Font factory default font (Arial) with non-configurable fallback by default"/>
+    <Label styleClass="example-text" fx:id="exampleText1" text="Latin textQ &amp; 日本語の文章 &amp; ✨絵文字✨"/>
+    <Label text="Resource font (Roboto) with no fallback" />
+    <Label styleClass="example-text" fx:id="exampleText2" text="Latin textQ &amp; 日本語の文章 &amp; ✨絵文字✨"/>
+    <Label text="Font factory with resource font (Roboto) and non-configurable default fallback" />
+    <Label styleClass="example-text" fx:id="exampleText3" text="Latin textQ &amp; 日本語の文章 &amp; ✨絵文字✨"/>
+    <Label text="Resource font (Roboto) with custom fallback font (Kosugi Maru)" />
+    <Label styleClass="example-text" fx:id="exampleText4" text="Latin textQ &amp; 日本語の文章 &amp; ✨絵文字✨"/>
+</VBox>
