@@ -2,7 +2,6 @@ package org.example.fxfontfallbackdemo;
 
 import com.sun.javafx.font.FallbackResource;
 import com.sun.javafx.font.FontResource;
-import com.sun.javafx.scene.text.FontHelper;
 import javafx.scene.text.Font;
 
 import java.lang.reflect.Field;
